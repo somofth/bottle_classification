@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(241, 129, 91);
+}
+#main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.image-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  width: auto;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+#result {
+  margin-bottom: 0px;
+}
+
+#label-container {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 60vh;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: rgb(41, 41, 41);
+}
+
+#label-container div {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#label-container div.selected {
+  background-color: rgb(216, 117, 74);
+  color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in-out; /* 부드러운 전환 효과 */
+}
