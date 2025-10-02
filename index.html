@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Teachable Machine Image Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div id="title">알맹상점 병 분류 모델</div>
+    <p id="result">분류하고 싶은 이미지를 업로드하세요.</p>
+    <div id="main">
+      <div class="image-container">
+        <img id="uploadedImage" style="display: none" />
+      </div>
+      <div id="label-container"></div>
+    </div>
+    <!-- 예측 결과가 표시될 곳 -->
+    <input type="file" id="imageUploader" accept="image/*" />
+  </body>
+</html>
