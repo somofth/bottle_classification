@@ -1,2 +1,2 @@
 # bottle_classification
-병 분류하기
+병 사진 넣어서 분류하기
